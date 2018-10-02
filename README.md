@@ -6,21 +6,26 @@ Verificar nivel de habilidades do desenvolvedor entrevistado, mensurar tempo nec
 
 ## Requisitos
 
+- Telas restritas devem estar protegidas de acesso, caso não exista sessão ou autenticação.
 - Cadastro de conta de aluno e administrador.
 - Painel administrativo e de aluno.
 - Após login, realizar redirecionamento para tela do usuário em questão.
 - Deve existir uma sessão para autenticação.
 - Usuário irá poder fazer logoff.
 - O aluno poderá editar suas informações.
+- O aluno poderá visualizar editais existentes atualmente no sistema.
+- O aluno poderá se cadastrar em editais existentes atualmente no sistema.
 - O administrador poderá editar suas informações.
-- O aluno poderá se cadastrar em auxilios existentes atualmente no sistema.
-- O administrador poderá criar, excluir e editar auxilios ao sistema.
+- O administrador poderá criar, excluir e editar editais ao sistema.
 - O administrador poderá ver todos os alunos cadastrados no sistema.
+- O administrador poderá ver todos os editais no sistema.
+
+**Requisitos a mais são bem vindos e serão vistos como pontos a mais.**
 
 ## Estilos
 
-Telas para referencia estão dentro da pasta "telas-referencia".
-Utilizar estilos do guide style providenciado na pasta "style-guide", porém a critividade e senso critico do desenvolvedor é totalmente bem vinda e aceita.
+Telas para referencia estão dentro da pasta "telas-referencia". **Nem todas as telas dos requisitos foram referenciadas na pasta**, utilize sua criatividade para criar as telas dos requisitos faltantes, sua critividade é bem vinda.
+Utilizar estilos do guide style providenciado na pasta "style-guide", porém a critividade e senso critico do desenvolvedor é aceita.
 
 ## Organização
 
@@ -36,7 +41,7 @@ O projeto deve está organizado da seguinte forma:
   - api.js
   - index.js
 
-Abaixo estão a explicação dos principais diretórios, os outros são auto explicativos:
+Abaixo, estão a função dos principais diretórios:
 
 | Pasta        | Função           |
 | ------------- |-------------|
@@ -47,7 +52,7 @@ Abaixo estão a explicação dos principais diretórios, os outros são auto exp
 
 ## Regras e Tecnologias
 
-Atenção, utilize todas as libs abaixo:
+Atenção, utilize **TODAS** as bibliotecas abaixo:
 
 Nome | Função 
 |---| -----|
@@ -60,6 +65,7 @@ redux-form | Biblioteca para geração de formulários com ajuda do redux
 redux-react-session | Criação de sessão com redux
 
 - Utilizar a arquitetura organizacional informada na **Organização**.
+- Utilize o "npm" para instalação da lib em seu projeto.
 
 ## Simulação de API
 
